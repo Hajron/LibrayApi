@@ -34,3 +34,4 @@ C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\
 C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi\obj\Debug\net9.0\LibraryApi.pdb
 C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi\obj\Debug\net9.0\LibraryApi.genruntimeconfig.cache
 C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi\obj\Debug\net9.0\ref\LibraryApi.dll
+C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi\obj\Debug\net9.0\LibraryApi.sourcelink.json
