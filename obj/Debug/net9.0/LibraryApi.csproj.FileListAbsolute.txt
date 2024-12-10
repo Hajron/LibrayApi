@@ -35,3 +35,13 @@ C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\
 C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi\obj\Debug\net9.0\LibraryApi.genruntimeconfig.cache
 C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi\obj\Debug\net9.0\ref\LibraryApi.dll
 C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi\obj\Debug\net9.0\LibraryApi.sourcelink.json
+C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi\bin\Debug\net9.0\Serilog.dll
+C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi\bin\Debug\net9.0\Serilog.AspNetCore.dll
+C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
+C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi\bin\Debug\net9.0\Serilog.Extensions.Logging.dll
+C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi\bin\Debug\net9.0\Serilog.Formatting.Compact.dll
+C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
+C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi\bin\Debug\net9.0\Serilog.Sinks.Console.dll
+C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
+C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi\bin\Debug\net9.0\Serilog.Sinks.File.dll

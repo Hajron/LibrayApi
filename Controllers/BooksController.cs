@@ -27,7 +27,7 @@ namespace LibraryApi.Controllers
             var book = _booksService.GetBook(id);
             if (book == null)
             {
-                return NotFound();
+                NotFound();
             }
             return Ok(book);
         }

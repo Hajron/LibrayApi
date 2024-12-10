@@ -1,0 +1,54 @@
+2024-12-10 13:46:48.490 +01:00 [INF] Now listening on: http://localhost:5017
+2024-12-10 13:46:48.518 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-10 13:46:48.519 +01:00 [INF] Hosting environment: Development
+2024-12-10 13:46:48.520 +01:00 [INF] Content root path: C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi
+2024-12-10 13:47:11.488 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.html - null null
+2024-12-10 13:47:11.554 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.html - 200 null text/html;charset=utf-8 66.2207ms
+2024-12-10 13:47:11.567 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.js - null null
+2024-12-10 13:47:11.571 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.js - 200 null application/javascript;charset=utf-8 4.3384ms
+2024-12-10 13:47:11.685 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - null null
+2024-12-10 13:47:11.697 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/favicon-32x32.png - null null
+2024-12-10 13:47:11.709 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-12-10 13:47:11.710 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/favicon-32x32.png - 200 628 image/png 13.6578ms
+2024-12-10 13:47:11.778 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 92.9321ms
+2024-12-10 13:47:23.130 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/api/Books - null null
+2024-12-10 13:47:23.141 +01:00 [INF] Executing endpoint 'LibraryApi.Controllers.BooksController.GetBooks (LibraryApi)'
+2024-12-10 13:47:23.153 +01:00 [INF] Route matched with {action = "GetBooks", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[LibraryApi.Models.Book]] GetBooks() on controller LibraryApi.Controllers.BooksController (LibraryApi).
+2024-12-10 13:47:23.159 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApi.Models.Book, LibraryApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-10 13:47:23.180 +01:00 [INF] Executed action LibraryApi.Controllers.BooksController.GetBooks (LibraryApi) in 23.0121ms
+2024-12-10 13:47:23.182 +01:00 [INF] Executed endpoint 'LibraryApi.Controllers.BooksController.GetBooks (LibraryApi)'
+2024-12-10 13:47:23.185 +01:00 [INF] HTTP GET /api/Books responded 200 in 44.4315 ms
+2024-12-10 13:47:23.188 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/api/Books - 200 null application/json; charset=utf-8 57.5726ms
+2024-12-10 13:47:26.182 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/api/Books - null null
+2024-12-10 13:47:26.184 +01:00 [INF] Executing endpoint 'LibraryApi.Controllers.BooksController.GetBooks (LibraryApi)'
+2024-12-10 13:47:26.185 +01:00 [INF] Route matched with {action = "GetBooks", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[LibraryApi.Models.Book]] GetBooks() on controller LibraryApi.Controllers.BooksController (LibraryApi).
+2024-12-10 13:47:26.188 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApi.Models.Book, LibraryApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-10 13:47:26.190 +01:00 [INF] Executed action LibraryApi.Controllers.BooksController.GetBooks (LibraryApi) in 2.9448ms
+2024-12-10 13:47:26.191 +01:00 [INF] Executed endpoint 'LibraryApi.Controllers.BooksController.GetBooks (LibraryApi)'
+2024-12-10 13:47:26.192 +01:00 [INF] HTTP GET /api/Books responded 200 in 8.0245 ms
+2024-12-10 13:47:26.194 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/api/Books - 200 null application/json; charset=utf-8 11.712ms
+2024-12-10 13:47:33.845 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5017/api/Books - application/json 72
+2024-12-10 13:47:33.848 +01:00 [INF] Executing endpoint 'LibraryApi.Controllers.BooksController.CreateBook (LibraryApi)'
+2024-12-10 13:47:33.857 +01:00 [INF] Route matched with {action = "CreateBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[LibraryApi.Models.Book] CreateBook(LibraryApi.Models.Book) on controller LibraryApi.Controllers.BooksController (LibraryApi).
+2024-12-10 13:47:33.882 +01:00 [INF] Executing CreatedAtActionResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[LibraryApi.Models.Book, LibraryApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-10 13:47:33.900 +01:00 [INF] Executed action LibraryApi.Controllers.BooksController.CreateBook (LibraryApi) in 40.2641ms
+2024-12-10 13:47:33.901 +01:00 [INF] Executed endpoint 'LibraryApi.Controllers.BooksController.CreateBook (LibraryApi)'
+2024-12-10 13:47:33.902 +01:00 [INF] HTTP POST /api/Books responded 201 in 53.7988 ms
+2024-12-10 13:47:33.903 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5017/api/Books - 201 null application/json; charset=utf-8 58.0576ms
+2024-12-10 13:47:44.018 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/api/Books/7 - null null
+2024-12-10 13:47:44.020 +01:00 [INF] Executing endpoint 'LibraryApi.Controllers.BooksController.GetBook (LibraryApi)'
+2024-12-10 13:47:44.025 +01:00 [INF] Route matched with {action = "GetBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[LibraryApi.Models.Book] GetBook(Int32) on controller LibraryApi.Controllers.BooksController (LibraryApi).
+2024-12-10 13:47:44.028 +01:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-12-10 13:47:44.030 +01:00 [INF] Executed action LibraryApi.Controllers.BooksController.GetBook (LibraryApi) in 2.6857ms
+2024-12-10 13:47:44.031 +01:00 [INF] Executed endpoint 'LibraryApi.Controllers.BooksController.GetBook (LibraryApi)'
+2024-12-10 13:47:44.032 +01:00 [INF] HTTP GET /api/Books/7 responded 204 in 12.1705 ms
+2024-12-10 13:47:44.034 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/api/Books/7 - 204 null null 16.6389ms
+2024-12-10 13:47:47.139 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/api/Books/7 - null null
+2024-12-10 13:47:47.142 +01:00 [INF] Executing endpoint 'LibraryApi.Controllers.BooksController.GetBook (LibraryApi)'
+2024-12-10 13:47:47.143 +01:00 [INF] Route matched with {action = "GetBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[LibraryApi.Models.Book] GetBook(Int32) on controller LibraryApi.Controllers.BooksController (LibraryApi).
+2024-12-10 13:47:47.146 +01:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-12-10 13:47:47.147 +01:00 [INF] Executed action LibraryApi.Controllers.BooksController.GetBook (LibraryApi) in 1.4994ms
+2024-12-10 13:47:47.148 +01:00 [INF] Executed endpoint 'LibraryApi.Controllers.BooksController.GetBook (LibraryApi)'
+2024-12-10 13:47:47.149 +01:00 [INF] HTTP GET /api/Books/7 responded 204 in 6.8031 ms
+2024-12-10 13:47:47.150 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/api/Books/7 - 204 null null 11.0021ms
+2024-12-10 13:48:11.673 +01:00 [INF] Application is shutting down...
