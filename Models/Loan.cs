@@ -10,7 +10,7 @@ public class Loan
     [Required]
     [ForeignKey("Book")]
     public int BookId { get; set;} // Fremmednøkkel
-    public Book book { get; set;}
+    public Book Book { get; set;}
 
     public DateTime LoadDate { get; set;} = DateTime.Now;
     public DateTime? ReturnDate { get; set;}

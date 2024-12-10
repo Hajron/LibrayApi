@@ -16,7 +16,6 @@ public class Book
     public int AuthorId { get; set; } //fremmednøkkel
     public Author Author { get; set; }
 
-    public ICollection<Book>
-
+    public ICollection<Loan> Loans { get; set; }
 
 }

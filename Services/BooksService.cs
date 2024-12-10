@@ -7,8 +7,8 @@ public class BooksService : IBooksService
 {
     public static List<Book> books = new List<Book>
         {
-            new Book { Id = 1, Title = "Monster", Author = "Drew Mansion", Year = 1977 },
-            new Book { Id = 2, Title = "Bulls Eye", Author = "Camilla Colly", Year = 1960 }
+            // new Book { Id = 1, Title = "Monster", Author = "Drew Mansion", Year = 1977 },
+            // new Book { Id = 2, Title = "Bulls Eye", Author = "Camilla Colly", Year = 1960 }
         };
 
     public IEnumerable<Book> GetBooks() => books;
