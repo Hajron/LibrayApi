@@ -1,0 +1,53 @@
+[33mcommit f5213e70b83b96e0f2277d22a20e6252582441ec[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Hajron <119761530+Hajron@users.noreply.github.com>
+Date:   Tue Dec 10 17:09:34 2024 +0100
+
+    Added LibraryDbContext.cs with options
+
+[33mcommit 60d10d1161ba09c67484bfdc4aef2d8798df6c6e[m
+Author: Hajron <119761530+Hajron@users.noreply.github.com>
+Date:   Tue Dec 10 15:35:54 2024 +0100
+
+    Added Book and Loan Models (last lecture started)
+
+[33mcommit e069e76d949f4040496aeae3433f3f1fb48245f0[m
+Author: Hajron <119761530+Hajron@users.noreply.github.com>
+Date:   Tue Dec 10 14:26:54 2024 +0100
+
+    Removed Middleware.cs, added more logging exeptions. End of lecture3
+
+[33mcommit f2ee7ed90e22a4696fe0ff5794c4f03651733cfa[m
+Author: Hajron <119761530+Hajron@users.noreply.github.com>
+Date:   Tue Dec 10 13:49:29 2024 +0100
+
+    Added ExceptionHandlingMiddleware.cs, added Serilog
+
+[33mcommit 1080b44af7403ca7c3b65f5219bd50baff9682ee[m
+Author: Hajron <119761530+Hajron@users.noreply.github.com>
+Date:   Tue Dec 10 01:42:41 2024 +0100
+
+    Added LoggingMiddleware.cs, done with class3
+
+[33mcommit 8933f3b25ccb13b415b8a3095140b7364b1728cd[m
+Author: Hajron <119761530+Hajron@users.noreply.github.com>
+Date:   Mon Dec 9 20:05:45 2024 +0100
+
+    Added .gitignore, finished BooksService.cs
+
+[33mcommit 8ffe22cdf16c8739a2e45f3b501f8a86ce4ca25e[m
+Author: Hajron <119761530+Hajron@users.noreply.github.com>
+Date:   Mon Dec 9 18:06:10 2024 +0100
+
+    Added Services with files and updated IBooksServices.cs. Added Middleware folder
+
+[33mcommit 044394196afb21f9719435ebee4020fcc4db19e3[m
+Author: Hajron <119761530+Hajron@users.noreply.github.com>
+Date:   Mon Dec 9 11:26:41 2024 +0100
+
+    Added endpoints: HttpGet, HttpGet by Id, HttpPut by Id, HttpPost and  HttpDelete
+
+[33mcommit d8913e720d9cda6c651692eb3aacc4b40dc4fa86[m
+Author: Hajron <119761530+Hajron@users.noreply.github.com>
+Date:   Mon Dec 9 10:14:55 2024 +0100
+
+    First commit added Contreoller and Models
