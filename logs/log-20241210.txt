@@ -52,3 +52,87 @@
 2024-12-10 13:47:47.149 +01:00 [INF] HTTP GET /api/Books/7 responded 204 in 6.8031 ms
 2024-12-10 13:47:47.150 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/api/Books/7 - 204 null null 11.0021ms
 2024-12-10 13:48:11.673 +01:00 [INF] Application is shutting down...
+2024-12-10 13:54:57.439 +01:00 [INF] Now listening on: http://localhost:5017
+2024-12-10 13:54:57.463 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-10 13:54:57.465 +01:00 [INF] Hosting environment: Development
+2024-12-10 13:54:57.467 +01:00 [INF] Content root path: C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi
+2024-12-10 13:55:02.927 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.html - null null
+2024-12-10 13:55:02.993 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.html - 200 null text/html;charset=utf-8 66.7829ms
+2024-12-10 13:55:03.015 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.js - null null
+2024-12-10 13:55:03.020 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.js - 200 null application/javascript;charset=utf-8 5.8687ms
+2024-12-10 13:55:03.134 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - null null
+2024-12-10 13:55:03.261 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 127.155ms
+2024-12-10 13:55:17.254 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/api/Books - null null
+2024-12-10 13:55:17.262 +01:00 [INF] Executing endpoint 'LibraryApi.Controllers.BooksController.GetBooks (LibraryApi)'
+2024-12-10 13:55:17.277 +01:00 [INF] Route matched with {action = "GetBooks", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[LibraryApi.Models.Book]] GetBooks() on controller LibraryApi.Controllers.BooksController (LibraryApi).
+2024-12-10 13:55:17.286 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApi.Models.Book, LibraryApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-10 13:55:17.306 +01:00 [INF] Executed action LibraryApi.Controllers.BooksController.GetBooks (LibraryApi) in 23.8541ms
+2024-12-10 13:55:17.309 +01:00 [INF] Executed endpoint 'LibraryApi.Controllers.BooksController.GetBooks (LibraryApi)'
+2024-12-10 13:55:17.312 +01:00 [INF] HTTP GET /api/Books responded 200 in 50.7188 ms
+2024-12-10 13:55:17.314 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/api/Books - 200 null application/json; charset=utf-8 60.1938ms
+2024-12-10 13:55:34.781 +01:00 [INF] Application is shutting down...
+2024-12-10 13:55:38.014 +01:00 [INF] Now listening on: http://localhost:5017
+2024-12-10 13:55:38.039 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-10 13:55:38.040 +01:00 [INF] Hosting environment: Development
+2024-12-10 13:55:38.041 +01:00 [INF] Content root path: C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi
+2024-12-10 13:55:39.255 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.html - null null
+2024-12-10 13:55:39.310 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.html - 200 null text/html;charset=utf-8 55.7569ms
+2024-12-10 13:55:39.321 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.js - null null
+2024-12-10 13:55:39.325 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.js - 200 null application/javascript;charset=utf-8 4.7693ms
+2024-12-10 13:55:39.394 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - null null
+2024-12-10 13:55:39.474 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 80.3ms
+2024-12-10 13:55:55.228 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/api/Books - null null
+2024-12-10 13:55:55.236 +01:00 [INF] Executing endpoint 'LibraryApi.Controllers.BooksController.GetBooks (LibraryApi)'
+2024-12-10 13:55:55.243 +01:00 [INF] Route matched with {action = "GetBooks", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[LibraryApi.Models.Book]] GetBooks() on controller LibraryApi.Controllers.BooksController (LibraryApi).
+2024-12-10 13:55:55.249 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApi.Models.Book, LibraryApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-10 13:55:55.265 +01:00 [INF] Executed action LibraryApi.Controllers.BooksController.GetBooks (LibraryApi) in 16.1208ms
+2024-12-10 13:55:55.267 +01:00 [INF] Executed endpoint 'LibraryApi.Controllers.BooksController.GetBooks (LibraryApi)'
+2024-12-10 13:55:55.269 +01:00 [INF] HTTP GET /api/Books responded 200 in 33.3697 ms
+2024-12-10 13:55:55.272 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/api/Books - 200 null application/json; charset=utf-8 44.0548ms
+2024-12-10 14:13:16.115 +01:00 [INF] Application is shutting down...
+2024-12-10 14:13:23.129 +01:00 [INF] Now listening on: http://localhost:5017
+2024-12-10 14:13:23.154 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-10 14:13:23.156 +01:00 [INF] Hosting environment: Development
+2024-12-10 14:13:23.157 +01:00 [INF] Content root path: C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi
+2024-12-10 14:13:23.848 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.html - null null
+2024-12-10 14:13:23.916 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.html - 200 null text/html;charset=utf-8 69.1569ms
+2024-12-10 14:13:23.949 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.js - null null
+2024-12-10 14:13:23.967 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.js - 200 null application/javascript;charset=utf-8 18.6893ms
+2024-12-10 14:13:24.040 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - null null
+2024-12-10 14:13:24.122 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 82.0301ms
+2024-12-10 14:13:52.026 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5017/api/Books - application/json 69
+2024-12-10 14:13:52.032 +01:00 [INF] Executing endpoint 'LibraryApi.Controllers.BooksController.CreateBook (LibraryApi)'
+2024-12-10 14:13:52.047 +01:00 [INF] Route matched with {action = "CreateBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[LibraryApi.Models.Book] CreateBook(LibraryApi.Models.Book) on controller LibraryApi.Controllers.BooksController (LibraryApi).
+2024-12-10 14:13:52.076 +01:00 [INF] Book added: LibraryApi.Models.Book
+2024-12-10 14:13:52.082 +01:00 [INF] Executing CreatedAtActionResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[LibraryApi.Models.Book, LibraryApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-10 14:13:52.109 +01:00 [INF] Executed action LibraryApi.Controllers.BooksController.CreateBook (LibraryApi) in 58.0368ms
+2024-12-10 14:13:52.111 +01:00 [INF] Executed endpoint 'LibraryApi.Controllers.BooksController.CreateBook (LibraryApi)'
+2024-12-10 14:13:52.113 +01:00 [INF] HTTP POST /api/Books responded 201 in 80.6565 ms
+2024-12-10 14:13:52.116 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5017/api/Books - 201 null application/json; charset=utf-8 89.348ms
+2024-12-10 14:14:54.978 +01:00 [INF] Application is shutting down...
+2024-12-10 14:14:58.342 +01:00 [INF] Now listening on: http://localhost:5017
+2024-12-10 14:14:58.370 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-10 14:14:58.371 +01:00 [INF] Hosting environment: Development
+2024-12-10 14:14:58.373 +01:00 [INF] Content root path: C:\Users\ronny\Koder\C-Sharp Gokstad undervisning\Semester3\emne7\LibraryRemake\LibraryApi
+2024-12-10 14:14:58.630 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.html - null null
+2024-12-10 14:14:58.692 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.html - 200 null text/html;charset=utf-8 62.7162ms
+2024-12-10 14:14:58.708 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.js - null null
+2024-12-10 14:14:58.712 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.js - 200 null application/javascript;charset=utf-8 5.1544ms
+2024-12-10 14:14:58.790 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - null null
+2024-12-10 14:14:58.868 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 78.0584ms
+2024-12-10 14:15:02.020 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.html - null null
+2024-12-10 14:15:02.023 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.html - 200 null text/html;charset=utf-8 2.6128ms
+2024-12-10 14:15:02.038 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.js - null null
+2024-12-10 14:15:02.042 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.js - 200 null application/javascript;charset=utf-8 3.7889ms
+2024-12-10 14:15:02.094 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - null null
+2024-12-10 14:15:02.101 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.0751ms
+2024-12-10 14:15:21.796 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5017/api/Books - application/json 75
+2024-12-10 14:15:21.801 +01:00 [INF] Executing endpoint 'LibraryApi.Controllers.BooksController.CreateBook (LibraryApi)'
+2024-12-10 14:15:21.815 +01:00 [INF] Route matched with {action = "CreateBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[LibraryApi.Models.Book] CreateBook(LibraryApi.Models.Book) on controller LibraryApi.Controllers.BooksController (LibraryApi).
+2024-12-10 14:15:21.839 +01:00 [INF] Book added: MOSSLY
+2024-12-10 14:15:21.844 +01:00 [INF] Executing CreatedAtActionResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[LibraryApi.Models.Book, LibraryApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-10 14:15:21.863 +01:00 [INF] Executed action LibraryApi.Controllers.BooksController.CreateBook (LibraryApi) in 43.0865ms
+2024-12-10 14:15:21.864 +01:00 [INF] Executed endpoint 'LibraryApi.Controllers.BooksController.CreateBook (LibraryApi)'
+2024-12-10 14:15:21.867 +01:00 [INF] HTTP POST /api/Books responded 201 in 65.4536 ms
+2024-12-10 14:15:21.869 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5017/api/Books - 201 null application/json; charset=utf-8 73.4541ms
+2024-12-10 14:26:05.328 +01:00 [INF] Application is shutting down...

@@ -34,7 +34,6 @@ else
 //app.UseAuthorization();
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 app.MapControllers();
-app.UseMiddleware<LoggingMiddleware>();
 app.UseSerilogRequestLogging();
 
 

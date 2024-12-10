@@ -2,6 +2,7 @@
 using LibraryApi.Models;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.VisualBasic;
+using Serilog;
 public class BooksService : IBooksService
 {
     public static List<Book> books = new List<Book>
@@ -18,6 +19,7 @@ public class BooksService : IBooksService
     {
         book.Id = books.Max(b => b.Id) + 1;
         books.Add(book);
+        Log.Information($"Book added: {book.Title}");
     }
 
     public void UpdateBook(int id, Book updatedBook)
@@ -28,6 +30,7 @@ public class BooksService : IBooksService
         book.Title = updatedBook.Title;
         book.Author = updatedBook.Author;
         book.Year = updatedBook.Year;
+        Log.Information($"Updated Book: {book.Title}");
     }
 
     public void DeleteBook(int id)

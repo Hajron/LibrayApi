@@ -1,5 +1,6 @@
 using LibraryApi.Models;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 namespace LibraryApi.Controllers
 {
@@ -27,6 +28,7 @@ namespace LibraryApi.Controllers
             var book = _booksService.GetBook(id);
             if (book == null)
             {
+                Log.Information("Book er null");
                 NotFound();
             }
             return Ok(book);
@@ -35,6 +37,10 @@ namespace LibraryApi.Controllers
         [HttpPost]
         public ActionResult<Book> CreateBook(Book newBook)
         {
+            if(!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
             _booksService.CreateBook(newBook);
             return CreatedAtAction(nameof(CreateBook), new {newBook.Id, newBook});
         }
